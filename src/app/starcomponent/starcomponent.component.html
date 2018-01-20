@@ -1,0 +1,4 @@
+<button (click)="getCharacter()"> Click here to get your character! </button>
+<ul>
+  <li *ngFor="let character of Characters">{{ character.name | json }}</li>
+</ul>
